@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Test MMPI-2 Wrocław i Trzebnica – badanie osobowości z interpretacją</title>
+<meta name="description" content="Test osobowości MMPI-2 z indywidualną interpretacją wyników. Badanie u certyfikowanego terapeuty we Wrocławiu i w Trzebnicy koło Wrocławia. Umów termin.">
+<meta name="keywords" content="MMPI-2, test MMPI-2 Wrocław, test MMPI-2 Trzebnica, test osobowości Wrocław, badanie osobowości, interpretacja MMPI-2, testy psychologiczne Wrocław, terapeuta Wrocław, terapeuta Trzebnica, diagnoza psychologiczna">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+<meta name="geo.region" content="PL-DS">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pl_PL">
+<meta property="og:title" content="Test MMPI-2 z interpretacją – Wrocław i Trzebnica">
+<meta property="og:description" content="Test osobowości MMPI-2 u certyfikowanego terapeuty. Gabinety we Wrocławiu i w Trzebnicy.">
+<meta name="theme-color" content="#1B6B6F">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,500;7..72,600&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#F4F7F7;--surface:#FFFFFF;--ink:#16262E;--muted:#4D6068;--line:#D5DEE0;
+  --accent:#1B6B6F;--accent-ink:#FFFFFF;--soft:#DCEBEA;--mark:#FFF1C2;--markink:#5B4300;
+  --serif:"Literata",Georgia,"Times New Roman",serif;
+  --sans:"Public Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){--bg:#0F1A1F;--surface:#16252B;--ink:#E7EFF0;--muted:#A3B4BA;--line:#2A3D44;--accent:#6FC3C4;--accent-ink:#0B1A1E;--soft:#1B3438;--mark:#4A3C10;--markink:#FFE9A8}
+}
+:root[data-theme="dark"]{--bg:#0F1A1F;--surface:#16252B;--ink:#E7EFF0;--muted:#A3B4BA;--line:#2A3D44;--accent:#6FC3C4;--accent-ink:#0B1A1E;--soft:#1B3438;--mark:#4A3C10;--markink:#FFE9A8}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1.0625rem/1.65 var(--sans);-webkit-text-size-adjust:100%}
+h1,h2,h3{font-family:var(--serif);font-weight:600;line-height:1.2;margin:0 0 .6em;letter-spacing:-.01em}
+h1{font-size:clamp(2rem,6vw,3.4rem)}
+h2{font-size:clamp(1.5rem,3.6vw,2.1rem)}
+h3{font-size:1.2rem}
+p{margin:0 0 1em;max-width:62ch}
+a{color:var(--accent)}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:4px}
+.wrap{width:min(1080px,100% - 2.5rem);margin-inline:auto}
+section{padding:clamp(2.5rem,7vw,4.5rem) 0}
+.band{background:var(--surface);border-block:1px solid var(--line)}
+.muted{color:var(--muted)}
+.ph{background:var(--mark);color:var(--markink);padding:0 .3em;border-radius:3px;white-space:nowrap}
+
+header.top{padding:1rem 0;border-bottom:1px solid var(--line)}
+header.top .wrap{display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap}
+.brand{font-family:var(--serif);font-weight:600;font-size:1.1rem}
+nav a{margin-left:1.2rem;text-decoration:none;color:var(--ink);font-weight:500;font-size:.95rem}
+nav a:hover{color:var(--accent)}
+@media(max-width:620px){nav{width:100%;display:flex;gap:1.2rem;overflow-x:auto;white-space:nowrap;-webkit-overflow-scrolling:touch}nav a{margin:0;padding:.55rem 0}}
+
+.hero{display:grid;gap:2.5rem;align-items:center}
+@media(min-width:900px){.hero{grid-template-columns:1.05fr .95fr}}
+.lead{font-size:1.2rem;color:var(--muted)}
+.btns{display:flex;gap:.75rem;flex-wrap:wrap;margin-top:1.5rem}
+.btn{display:inline-block;padding:.85rem 1.4rem;border-radius:8px;font-weight:600;text-decoration:none;border:2px solid var(--accent);min-height:44px}
+.btn.primary{background:var(--accent);color:var(--accent-ink)}
+.btn.ghost{color:var(--accent);background:transparent}
+.btn:hover{filter:brightness(1.08)}
+.chart{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:1rem 1rem .75rem}
+.chart svg{width:100%;height:auto;display:block}
+.chart figcaption{font-size:.85rem;color:var(--muted);margin-top:.5rem}
+
+.cols{display:grid;gap:1.25rem}
+@media(min-width:700px){.cols.c2{grid-template-columns:1fr 1fr}}
+@media(min-width:900px){.cols.c3{grid-template-columns:repeat(3,1fr)}}
+@media(min-width:600px) and (max-width:899px){.cols.c3{grid-template-columns:1fr 1fr}}
+.box{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:1.4rem}
+.band .box{background:var(--bg)}
+.box p:last-child{margin-bottom:0}
+ul.tick{list-style:none;padding:0;margin:0}
+ul.tick li{padding-left:1.6rem;position:relative;margin-bottom:.55rem}
+ul.tick li::before{content:"";position:absolute;left:.15rem;top:.62em;width:.6rem;height:.6rem;border-radius:50%;background:var(--accent)}
+
+ol.steps{list-style:none;counter-reset:s;padding:0;margin:0;display:grid;gap:1rem}
+@media(min-width:560px){ol.steps{grid-template-columns:1fr 1fr}}
+@media(min-width:1000px){ol.steps{grid-template-columns:repeat(4,1fr)}}
+ol.steps li{counter-increment:s;background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:1.2rem}
+ol.steps li::before{content:counter(s);display:grid;place-items:center;width:2rem;height:2rem;border-radius:50%;background:var(--accent);color:var(--accent-ink);font-weight:600;margin-bottom:.7rem}
+ol.steps h3{font-size:1.05rem;margin-bottom:.4em}
+ol.steps p{font-size:.95rem;color:var(--muted);margin:0}
+
+.loc h3{display:flex;align-items:baseline;gap:.5rem}
+.price{font-family:var(--serif);font-size:1.7rem;font-weight:600;margin:.2rem 0 .6rem}
+details{border-bottom:1px solid var(--line)}
+summary{cursor:pointer;padding:1rem 0;font-weight:600;list-style:none;display:flex;justify-content:space-between;gap:1rem;min-height:44px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";font-size:1.4rem;line-height:1;color:var(--accent)}
+details[open] summary::after{content:"–"}
+details p{color:var(--muted)}
+.note{font-size:.88rem;color:var(--muted);max-width:70ch}
+footer{padding:2rem 0 2.5rem;border-top:1px solid var(--line)}
+.callbar{display:none}
+@media(max-width:700px){
+  .callbar{display:flex;position:fixed;left:0;right:0;bottom:0;gap:.5rem;padding:.6rem 1rem calc(.6rem + env(safe-area-inset-bottom,0px));background:var(--surface);border-top:1px solid var(--line);z-index:20}
+  .callbar .btn{flex:1;text-align:center;padding:.7rem .5rem}
+  body{padding-bottom:4.5rem}
+  .btns .btn{flex:1 1 100%;text-align:center}
+}
+@media(max-width:380px){body{font-size:1rem}.wrap{width:calc(100% - 2rem)}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Service","name":"Test osobowości MMPI-2 z interpretacją","serviceType":"Badanie osobowości MMPI-2 wraz z omówieniem wyników","inLanguage":"pl","description":"Test MMPI-2 wykonywany przez certyfikowanego terapeutę, z indywidualną interpretacją wyników.","areaServed":[{"@type":"City","name":"Wrocław"},{"@type":"City","name":"Trzebnica"}]}
+</script>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <span class="brand">Test MMPI-2</span>
+    <nav aria-label="Menu główne">
+      <a href="#o-ttescie">O teście</a>
+      <a href="#przebieg">Przebieg</a>
+      <a href="#gabinety">Gabinety</a>
+      <a href="#cennik">Cennik</a>
+      <a href="#kontakt">Kontakt</a>
+      <a href="#" target="_blank" rel="noopener">Strona gabinetu</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section>
+  <div class="wrap hero">
+    <div>
+      <h1>Test osobowości MMPI-2 z interpretacją we Wrocławiu i Trzebnicy</h1>
+      <p class="lead">Rzetelne badanie i rozmowa o tym, co z niego wynika. Prowadzi certyfikowany terapeuta, we Wrocławiu i w Trzebnicy.</p>
+      <div class="btns">
+        <a class="btn primary" href="#kontakt">Umów badanie</a>
+        <a class="btn ghost" href="#przebieg">Jak to wygląda</a>
+      </div>
+    </div>
+    <figure class="chart" style="margin:0">
+      <svg viewBox="0 0 440 250" role="img" aria-label="Schematyczny wykres profilu MMPI-2 z skalami ważności i klinicznymi">
+        <g stroke="var(--line)" stroke-width="1">
+          <line x1="30" y1="40" x2="425" y2="40"/><line x1="30" y1="90" x2="425" y2="90"/>
+          <line x1="30" y1="140" x2="425" y2="140"/><line x1="30" y1="190" x2="425" y2="190"/>
+        </g>
+        <rect x="30" y="90" width="395" height="50" fill="var(--soft)" opacity=".7"/>
+        <text x="4" y="94" font-size="10" fill="var(--muted)">65</text>
+        <text x="4" y="144" font-size="10" fill="var(--muted)">50</text>
+        <polyline fill="none" stroke="var(--accent)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"
+          points="48,130 78,110 108,120 138,95 168,70 198,100 228,85 258,125 288,92 318,75 348,105 378,80 408,135"/>
+        <g fill="var(--accent)">
+          <circle cx="48" cy="130" r="4"/><circle cx="78" cy="110" r="4"/><circle cx="108" cy="120" r="4"/>
+          <circle cx="138" cy="95" r="4"/><circle cx="168" cy="70" r="4"/><circle cx="198" cy="100" r="4"/>
+          <circle cx="228" cy="85" r="4"/><circle cx="258" cy="125" r="4"/><circle cx="288" cy="92" r="4"/>
+          <circle cx="318" cy="75" r="4"/><circle cx="348" cy="105" r="4"/><circle cx="378" cy="80" r="4"/><circle cx="408" cy="135" r="4"/>
+        </g>
+        <g font-size="11" fill="var(--ink)" text-anchor="middle">
+          <text x="48" y="215">L</text><text x="78" y="215">F</text><text x="108" y="215">K</text>
+          <text x="138" y="215">Hs</text><text x="168" y="215">D</text><text x="198" y="215">Hy</text>
+          <text x="228" y="215">Pd</text><text x="258" y="215">Mf</text><text x="288" y="215">Pa</text>
+          <text x="318" y="215">Pt</text><text x="348" y="215">Sc</text><text x="378" y="215">Ma</text><text x="408" y="215">Si</text>
+        </g>
+        <text x="30" y="238" font-size="10" fill="var(--muted)">skale ważności</text>
+        <text x="130" y="238" font-size="10" fill="var(--muted)">skale kliniczne</text>
+      </svg>
+      <figcaption>Schemat poglądowy profilu wyników. Nie przedstawia rzeczywistego badania.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section id="o-tescie" class="band">
+  <div class="wrap">
+    <h2>Czym jest MMPI-2</h2>
+    <div class="cols c2">
+      <div>
+        <p>MMPI-2 (Minnesota Multiphasic Personality Inventory-2) to jeden z najczęściej stosowanych na świecie kwestionariuszy osobowości. Składa się z 567 stwierdzeń, na które odpowiadasz „prawda” lub „fałsz”.</p>
+        <p>Wynik pokazuje profil na skalach klinicznych oraz skalach ważności, które sprawdzają, w jakim stopniu odpowiedzi są spójne i rzetelne. Dzięki temu wyniki można interpretować ostrożnie i z kontekstem.</p>
+      </div>
+      <div class="box">
+        <h3>Test pomaga zrozumieć</h3>
+        <ul class="tick">
+          <li>jak radzisz sobie z napięciem i emocjami,</li>
+          <li>jakie wzorce w relacjach i zachowaniu się powtarzają,</li>
+          <li>które obszary warto pogłębić w terapii lub rozwoju,</li>
+          <li>jakie są Twoje zasoby i mocne strony.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Dla kogo</h2>
+    <div class="cols c3">
+      <div class="box"><h3>Przed terapią</h3><p>Gdy chcesz lepiej określić, nad czym pracować, albo wspomóc diagnozę wstępną.</p></div>
+      <div class="box"><h3>W trakcie terapii</h3><p>Gdy proces utknął lub potrzebujesz obiektywnego spojrzenia na dotychczasowe zmiany.</p></div>
+      <div class="box"><h3>Na własną prośbę</h3><p>Gdy chcesz dokładniej poznać siebie, swoje reakcje i sposób funkcjonowania.</p></div>
+    </div>
+    <p class="note" style="margin-top:1.2rem">Test jest narzędziem pomocniczym. Sam wynik nie stanowi diagnozy, a ostateczne wnioski wynikają z rozmowy i oceny specjalisty.</p>
+  </div>
+</section>
+
+<section id="przebieg" class="band">
+  <div class="wrap">
+    <h2>Jak wygląda badanie</h2>
+    <ol class="steps">
+      <li><h3>Kontakt i termin</h3><p>Ustalamy cel badania, wybierasz gabinet i dogodny termin.</p></li>
+      <li><h3>Wypełnienie testu</h3><p>Odpowiadasz na pytania w spokojnym otoczeniu. Zwykle zajmuje to 60–90 minut.</p></li>
+      <li><h3>Opracowanie wyników</h3><p>Terapeuta opracowuje profil i analizuje go na tle skal ważności.</p></li>
+      <li><h3>Omówienie</h3><p>Na osobnym spotkaniu poznajesz wyniki i ich znaczenie, możesz zadawać pytania.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Co otrzymujesz</h2>
+    <div class="cols c2">
+      <div class="box">
+        <ul class="tick">
+          <li>wykonanie testu MMPI-2 pod opieką terapeuty,</li>
+          <li>indywidualną interpretację wyników,</li>
+          <li>rozmowę o wnioskach i dalszych krokach.</li>
+        </ul>
+      </div>
+      <div class="box">
+        <p>Wszystkie informacje są poufne. Dane i wyniki służą wyłącznie Tobie, a ich przekazanie innym osobom możliwe jest tylko za Twoją zgodą.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="gabinety" class="band">
+  <div class="wrap">
+    <h2>Test MMPI-2 we Wrocławiu i w Trzebnicy</h2>
+    <p>Badanie osobowości MMPI-2 i omówienie wyników prowadzimy w dwóch gabinetach: we Wrocławiu oraz w Trzebnicy koło Wrocławia.</p>
+    <p><a class="btn primary" href="#" target="_blank" rel="noopener">Strona gabinetu terapeutycznego</a></p>
+    <div class="cols c2 loc">
+      <div class="box">
+        <h3>Wrocław</h3>
+        <p><span class="ph">[adres gabinetu]</span></p>
+        <p class="muted"><span class="ph">[dojazd, parking, godziny]</span></p>
+      </div>
+      <div class="box">
+        <h3>Trzebnica</h3>
+        <p><span class="ph">[adres gabinetu]</span></p>
+        <p class="muted"><span class="ph">[dojazd, parking, godziny]</span></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="cennik">
+  <div class="wrap">
+    <h2>Cennik</h2>
+    <div class="cols c2">
+      <div class="box">
+        <h3>Test MMPI-2 z interpretacją</h3>
+        <div class="price"><span class="ph">[kwota] zł</span></div>
+        <p class="muted">Obejmuje wykonanie testu, opracowanie wyników i spotkanie omawiające.</p>
+      </div>
+      <div class="box">
+        <h3>Dodatkowe usługi</h3>
+        <p><span class="ph">[np. opinia pisemna, konsultacja dodatkowa, cena]</span></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap">
+    <h2>Najczęstsze pytania</h2>
+    <div style="max-width:760px">
+      <details><summary>Czy muszę się przygotować do testu?</summary><p>Nie ma specjalnych wymagań. Warto przyjść wypoczętym i mieć zapas czasu, bez pośpiechu.</p></details>
+      <details><summary>Czy można „oblać” test?</summary><p>Nie. To nie egzamin, a kwestionariusz osobowości. Najlepiej odpowiadać szczerze, bo skale ważności i tak sprawdzają spójność odpowiedzi.</p></details>
+      <details><summary>Czy wynik jest diagnozą?</summary><p>Nie. To jedno z narzędzi, które wspiera ocenę psychologiczną. Wnioski opieramy na wynikach i rozmowie.</p></details>
+      <details><summary>Kto zobaczy moje wyniki?</summary><p>Tylko Ty i prowadzący terapeuta. Inne osoby otrzymają je wyłącznie za Twoją zgodą.</p></details>
+      <details><summary>Czy mogę wybrać gabinet?</summary><p>Tak. Badanie i omówienie możliwe jest we Wrocławiu lub w Trzebnicy, zgodnie z Twoją wygodą.</p></details>
+    </div>
+  </div>
+</section>
+
+<section id="kontakt">
+  <div class="wrap">
+    <h2>Umów badanie</h2>
+    <p class="lead">Napisz lub zadzwoń, a wspólnie wybierzemy termin i gabinet.</p>
+    <div class="cols c2">
+      <div class="box">
+        <p><strong>Telefon</strong><br><span class="ph">[numer telefonu]</span></p>
+        <p><strong>E-mail</strong><br><span class="ph">[adres e-mail]</span></p>
+        <p style="margin-bottom:0"><strong>Terapeuta</strong><br><span class="ph">[imię, nazwisko, certyfikat]</span></p>
+      </div>
+      <div class="box">
+        <p>Odpowiadam zwykle w ciągu <span class="ph">[czas]</span>. Jeśli masz pytania, czy test będzie dla Ciebie odpowiedni, możemy to omówić przed umówieniem terminu.</p>
+        <a class="btn primary" href="tel:+48000000000" style="margin-top:.5rem">Zadzwoń</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p class="note" style="margin:0">Informacje na stronie mają charakter ogólny i nie zastępują konsultacji. Test MMPI-2 jest narzędziem pomocniczym i nie jest samodzielną diagnozą.</p>
+  </div>
+</footer>
+
+<div class="callbar">
+  <a class="btn primary" href="tel:+48000000000">Zadzwoń</a>
+  <a class="btn ghost" href="#kontakt">Umów termin</a>
+</div>
+
+</body>
+</html>
